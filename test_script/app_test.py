@@ -103,10 +103,10 @@ class MyTests(unittest.TestCase):
         print('返回')
         '''
 
-
     # 测试结束后执行的方法
     def tearDown(self):
         self.driver.quit()
+
 
 if __name__ == '__main__':
     test1 = MyTests()
